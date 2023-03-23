@@ -1,13 +1,13 @@
 <?php
 
-if (! function_exists('pass')) {
+if (! function_exists('bdcurrency')) {
     /**
      * Return the instance of toastr.
      *
      * @return Brian2694\Toastr\Toastr
      */
-    function pass()
+    function bdcurrency()
     {
-        return app('pass');
+        return app('bdcurrency');
     }
 }
