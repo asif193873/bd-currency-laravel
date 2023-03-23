@@ -1,0 +1,22 @@
+{
+    "name": "asif/pass_generator",
+    "description": "a simple password generator",
+    "author":[
+        {
+        "name":"asif",
+        "email":"asif193873@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Asif\\PassGenerator\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "type": "library",
+    "license": "Mit",
+    "minimum-stability": "dev",
+    "require": {}
+}
