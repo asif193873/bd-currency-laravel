@@ -1,6 +1,6 @@
 {
     "name": "asif193873/bdcurrency-laravel-package",
-    "description": "Bangladeshi currency related solution",
+    "description": "This is a package to express currency in Bangladeshi currency.",
     "author":[
         {
         "name":"asif",

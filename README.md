@@ -1,14 +1,6 @@
-# creative
+# Introduction
 
- this is a package to express currency in Bangladeshi currency.
-
-## Recommended IDE Setup
-
-
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+ This is a package to express currency in Bangladeshi currency.
 
 ## install package
 
