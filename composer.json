@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Asif\\PassGenerator\\": "src/"
+            "Asif\\BDcurrency\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -22,10 +22,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Asif\\PassGenerator\\PassGeneratorServiceProvider"
+                "Asif\\BDcurrency\\BDcurrencyServiceProvider"
             ],
             "aliases": {
-                "BDcurrency": "Asif\\PassGenerator\\Facades\\BDcurrency"
+                "BDcurrency": "Asif\\BDcurrency\\Facades\\BDcurrency"
             }
         }
     }

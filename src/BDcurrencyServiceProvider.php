@@ -1,16 +1,16 @@
 <?php
 
-namespace Asif\PassGenerator;
+namespace Asif\BDcurrency;
 
 
-use Asif\PassGenerator\PassGenerator;
+use Asif\BDcurrency\BDcurrency;
 use Illuminate\Support\ServiceProvider;
 
-class PassGeneratorServiceProvider extends ServiceProvider{
+class BDcurrencyServiceProvider extends ServiceProvider{
 
 	public function register(){
 		$this->app->bind('bdcurrency',function($app){
-			return new PassGenerator();
+			return new BDcurrency();
 		});
 	}
 
