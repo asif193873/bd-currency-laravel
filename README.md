@@ -15,7 +15,7 @@ composer require asif193873/pass_generator
 ```
 ### Now use the function with the help of BDcurrency Facade
 ```php
-	BDcurrency::numToBanglaWord(4343) // output চার তিন শত তেতাল্লিশ।
+	BDcurrency::numToBanglaWord(4343) // output চার হাজার তিন শত তেতাল্লিশ।
 
 	BDcurrency::numToBn(4343) // output ৪৩৪৩।
 
