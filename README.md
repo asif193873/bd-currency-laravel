@@ -10,7 +10,7 @@
 
 ### In controller put the code
 ```php
-	use Asif\PassGenerator\Facades\BDcurrency;
+	use Asif\BDcurrency\Facades\BDcurrency;
 
 ```
 ### Now use the function with the help of BDcurrency Facade
