@@ -5,7 +5,7 @@
 ## install package
 
 ```sh
-composer require asif193873/pass_generator
+	composer require asif193873/pass_generator
 ```
 
 ### In controller put the code
